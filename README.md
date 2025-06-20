@@ -19,7 +19,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 ### Step-by-Step Implementation
 
-# Note: we work on us-east-1 region only the  <b>bucket that will replicate data from the source bucket</b> in step 5 use ap-south-1 region.
+<b> Note: we work on us-east-1 region only the  <b>bucket that will replicate data from the source bucket</b> in step 5 use ap-south-1 region.</b>
 
 1. Create an AWS KMS key.  (reference: 1-Create a KMS key.png)
    - Define a key administrative permissions(User already created).
