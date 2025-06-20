@@ -4,7 +4,9 @@
 
 ## Purpose of the Hands on
 
-Create AWS KMS key for encrypting data at rest and performing server-side encryption. AWS KMS addresses this by storing customer master keys, which can directly perform encryption or generate unique symmetric data keys. These data keys, whether 128 or 256 bits, are encrypted using the customer master key.
+Use (AWS) Key Management Service (KMS) for Encrypting data on S3 bucket, EBS volume and AMI & Snaphot. 
+KMS provides a central way to manage cryptographic keys for various AWS services and our own applications. AWS KMS makes it easy to create and manage encryption keys, and it offers a range of features and integrations to enhance the security of our data.
+
 
 ## Architecture
 
@@ -17,7 +19,7 @@ Create AWS KMS key for encrypting data at rest and performing server-side encryp
 
 ### Step-by-Step Implementation
 
-#Note: we work on us-east-1 region only the  <b>bucket that will replicate data from the source bucket</b> in step 5 use ap-south-1 region.
+# Note: we work on us-east-1 region only the  <b>bucket that will replicate data from the source bucket</b> in step 5 use ap-south-1 region.
 
 1. Create an AWS KMS key.  (reference: 1-Create a KMS key.png)
    - Define a key administrative permissions(User already created).
