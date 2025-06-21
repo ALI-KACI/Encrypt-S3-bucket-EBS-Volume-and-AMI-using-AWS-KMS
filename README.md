@@ -49,7 +49,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
    - Create bucket in <b>ap-south-1</b>that will replicate data from the source bucket us-east-1.
    - Uncheck <b>Block all public access</b>
    - Enable Versioning.  (reference: 6-Bucket to replicat data in.png) 
-   - On the source bucket we create <b>Replication rule</b> and we choose the second bucket as destination and <b>aws/s3</b> as AWS KMS key.  (reference: 7-Replication Rules.png) 
+   - On the source bucket we create <b>Replication rule</b> and we choose the second bucket as destination and <b>aws/s3</b> as AWS key.  (reference: 7-Replication Rules.png) 
    - <b>Test: On the source bucket we upload new Object (image test) with Encryption key type: SSE-S3. (reference: 8-Image test successfully replicated to second bucket.png & 8-test object in source bucket.png)</b>
 
 
