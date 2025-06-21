@@ -80,6 +80,6 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 
 > *Lab originally from: [Encrypt S3 bucket, EBS Volume and AMI using AWS KMS](https://www.whizlabs.com/labs/encrypt-s3-bucket-ebs-volume-and-ami-using-aws-kms/))*
-
+> *Architecture Design from: [Design Architecture](https://app.diagrams.net/))*
 
 
