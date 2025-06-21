@@ -55,7 +55,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 6. Disabling the KMS Key
    - Disable the KMS key.  (reference: 9-Key disabled.png)
-   - <b>Test: Access to Image on the bucket source (attached to KMS key not the last one attached to SSE-S3) was denied as the KMS key was disabled.  (reference: 10-Object image.png & 8-test object in source bucket.png)</b>
+   - <b>Test: Access to Image on the bucket source (attached to KMS key not the last one attached to SSE-S3) was denied as the KMS key was disabled.  (reference: 10-Object image.png & 10-Access denied.png)</b>
 
 
 7. Encryption EBS Volume
