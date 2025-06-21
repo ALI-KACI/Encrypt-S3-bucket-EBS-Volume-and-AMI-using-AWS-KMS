@@ -8,7 +8,8 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 ## Architecture
 
-![Architecture for KMS Key](https://github.com/user-attachments/assets/e2b8ceb1-20b7-4e2c-815b-a6d32005d975)
+
+![Architecture-KMS](https://github.com/user-attachments/assets/3c74ad6c-bbbf-40d8-86c6-9709a41603a8)
 
 
 
