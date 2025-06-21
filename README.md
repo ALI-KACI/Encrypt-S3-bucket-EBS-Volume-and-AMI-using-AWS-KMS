@@ -1,7 +1,5 @@
 # Encrypt-S3-bucket-EBS-Volume-and-AMI-using-AWS-KMS
 
-# Encryption-and-Decryption-Using-KMS
-
 ## Purpose of the Hands on
 
 Use (AWS) Key Management Service (KMS) for Encrypting data on S3 bucket, EBS volume and AMI & Snaphot. 
@@ -19,7 +17,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 ### Step-by-Step Implementation
 
-<b> Note: we work on us-east-1 region. only the  <b>bucket that will replicate data from the source bucket</b> in step 5 use ap-south-1 region.</b>
+<b> Note:</b> we work on us-east-1 region. only the  <b>bucket that will replicate data from the source bucket</b> in step 5 use ap-south-1 region.
 
 1. Create an AWS KMS key.  (reference: 1-Create a KMS key.png)
    - Define a key administrative permissions(User already created).
