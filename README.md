@@ -22,7 +22,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 1. Create an AWS KMS key.  (reference: 1-Create a KMS key.png)
    - Define a key administrative permissions(User already created).
-   - Define a key usage permissions(select the same username).
+   - Define a key usage permissions(select the same user).
    - Key Policy(JSON policy).
    - Enable Key Rotation for 365 days.
   
