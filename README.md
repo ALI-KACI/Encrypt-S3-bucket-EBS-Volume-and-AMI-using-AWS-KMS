@@ -68,7 +68,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
    -  Create an Image with name <b>AdminUnencrypted</b> on the EC2 instance already created.  (reference:  12-Create an Image.png)
    -  Copy AMI with name <b>AdminEncrypted</b> and check <b>Encypt EBS snapshots of AMI copy</b> and add our KMS key.  (reference:  13-Copy AMI from AdminUnencrypted AMI.png)
    -  search the ID of <b>AdminEncrypted</b> AMI on Snapshot  (reference:  14-AdminEncrypted on snapshot.png)
-   -  <b>Test: AMI <b>AdminEncrypted</b> that was copied from <b>AdminUnencrypted</b> has the same AWS KMS key.  (reference:  15-AdminUnencrypted AMI with AWS KMS key.png)</b>
+   -  <b>Test: AMI <b>AdminEncrypted</b> that was copied from <b>AdminUnencrypted</b> has the AWS KMS key.  (reference:  15-AdminEncrypted AMI with AWS KMS key.png)</b>
      
 
 
