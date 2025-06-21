@@ -41,7 +41,7 @@ KMS provides a central way to manage cryptographic keys for various AWS services
      
 4. Verifying the encryption of the object.  
    - Make it our object public using ACL.
-   - <b>Test</b>: By copy Object URL, we are getting error because the file was encrypted using AWS KMS, The access from outside source was restricted.  (reference: 4-Copy the Object image.png & 4-Unauthorization to access.png)
+   - <b>Test: By copy Object URL, we are getting error because the file was encrypted using AWS KMS, The access from outside source was restricted. </b> (reference: 4-Copy the Object image.png & 4-Unauthorization to access.png)
    - The object image was opened locally from the source which can decrypt the file by <b>Open</b> button.  (reference: 5-Open Image.png & 5-Open image locally.png)
   
      
