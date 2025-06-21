@@ -59,11 +59,11 @@ KMS provides a central way to manage cryptographic keys for various AWS services
 
 
 7. Encryption EBS Volume
-     - Create a Volume:
-       -- name AdminEBS
-       -- GP2 type
-       -- 1GiB Size
-       -- Encryption choose our AWS KMS key (Administrator)  (reference: 11-EBS volume with KMS key encryption.png)
+   - Create a Volume:
+     - name AdminEBS
+     - GP2 type
+     - 1GiB Size
+     - Encryption choose our AWS KMS key (Administrator)  (reference: 11-EBS volume with KMS key encryption.png)
 
 8. Encrypting AMI and Snapshot.
    -  Create an Image with name <b>AdminUnencrypted</b> on the EC2 instance already created.  (reference:  12-Create an Image.png)
